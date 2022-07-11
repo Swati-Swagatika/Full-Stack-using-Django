@@ -1,0 +1,22 @@
+OOPS:
+
+Object:
+    -identity
+    -property
+    -behaviour
+
+Class:
+
+    getattr(obj_instance,string)
+    hasattr(obj_instance,string)
+    Attributes:
+        -Data Attributes
+        -class Attributes
+    static method acn only access static variable
+    any attribute with 2 underscores before variable/method name -> private
+Inheritance:
+    used for reusuability of the code
+    - single Inheritance
+    - multiple Inheritance - multiple base classes
+    - hierarchical
+

@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(226, 171, 100);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+#obj{
+    align-items: left;
+    box-sizing: border-box;
+    justify-content: left;
+}
+#image {
+    text-align: right;
+    box-sizing: border-box;
+    justify-content: end;
+}
+#img1 {
+    border: 1px solid black;
+    box-shadow: 2px 5px 5px rgb(7, 7, 7);
+}
+.acad {
+    width: 700px;
+    background-color: beige;
+}
+th {
+    background-color: rgb(134, 218, 218);
+}
+div1{
+    display: grid;
+    box-sizing: border-box;
+ }

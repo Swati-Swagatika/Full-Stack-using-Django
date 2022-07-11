@@ -1,0 +1,4 @@
+diff between id selector and class selector
+new selector:
+    - group selector
+    - 

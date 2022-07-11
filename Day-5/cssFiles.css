@@ -1,0 +1,18 @@
+h1.heading{
+    text-align: center;
+    color: rgb(23, 58, 92);
+}
+h2{
+    text-align: center;
+    color: black;
+}
+p.para{
+    text-align: center;
+    color: crimson;
+}
+p.heading {
+    color: rgb(165, 122, 42);
+}
+.bg{
+    background-color: rgb(210, 223, 96);
+}

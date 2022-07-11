@@ -1,0 +1,10 @@
+SEARCHING:
+linear SEARCH
+binary SEARCH
+
+SORTING:
+selection
+insertion
+bubble
+merge
+quick
