@@ -1,0 +1,27 @@
+<html>
+    <body bgcolor="wheat">
+        <h1>Javascript and event handling</h1>
+        <button id="myButton">Click Me</button>
+        <p id="para"></p>
+        <script>
+            let event = document.getElementById("myButton");
+            event.addEventListener("mouseover",mouseOverFunction);
+            event.addEventListener("mouseout",mouseOutFunction);
+            event.addEventListener("click",mouseClickFunction);
+            function mouseOverFunction(){
+                myButton.style.backgroundColor = "orange";
+                document.getElementById("para").innerHTML += "Mouse is over!<br>";
+            }
+            function mouseOutFunction(){
+                myButton.style.backgroundColor = "blue";
+                document.getElementById("para").innerHTML += "Mouse is out!<br>";
+            }
+            
+            function mouseClickFunction(){
+                myButton.style.backgroundColor = "red";
+                document.getElementById("para").innerHTML += "Mouse is clicked!<br>";
+            }
+            
+        </script>
+    </body>
+</html>

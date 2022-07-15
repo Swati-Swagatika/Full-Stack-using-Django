@@ -1,0 +1,23 @@
+<html>
+    <body>
+        <h1>Use of call keyword in function of Javscript</h1>
+        <p id="para"></p>
+        <script>
+            const Student={
+                
+                display:function(branch,roll){
+                    return this.Name+" "+this.city+" "+branch+" "+roll;
+                }
+            }
+            const Student1={
+                Name:"Swati",
+                city:"Talcher",
+            }
+            const Student2={
+                Name:"Nandita",
+                city:"Balasore",
+            }
+            document.getElementById("para").innerHTML = Student.display.call(Student1,"CSE", 22);
+        </script>
+    </body>    
+</html>

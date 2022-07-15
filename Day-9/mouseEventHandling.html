@@ -1,0 +1,19 @@
+<html>
+    <body>
+        <div id="divid" onmouseover="mOver(this)" onmouseout="mOut(this)" style="background-color: red; width:120px; height: 20px; padding: 40px; color: white;">
+            Mouse event Handling
+
+        </div>
+        <script>
+            function mOver(obj){
+                obj.innerHTML = "Mouse is Over";
+                document.getElementById("divid").style.backgroundColor = "black"
+            }
+
+            function mOut(obj){
+                obj.innerHTML = "Mouse is Outside";
+                document.getElementById("divid").style.backgroundColor = "blue"
+            }
+        </script>
+    </body>
+</html>

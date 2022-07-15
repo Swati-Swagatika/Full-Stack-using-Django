@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Access Field by ID</title>
+    </head>
+    <body>
+        <script>
+            function myFunction(){
+                var myname = document.getElementById("nameid").value;
+                var cube;
+                cube = Math.pow(myname,3);
+                alert("the cube of "+myname+" is "+cube);
+            }
+        </script>
+        <table>
+            <form action="" name="myForm">
+                <tr>
+                    <td>
+                        Enter Name: <input type="text" id="nameid" name="namebox">
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="button" onclick="myFunction()" value="Click Me">
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </body>
+</html>

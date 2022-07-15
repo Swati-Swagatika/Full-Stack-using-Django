@@ -1,0 +1,16 @@
+<html>
+    <body>
+        <h1>Use of call keyword in function of Javscript</h1>
+        <p id="para"></p>
+        <script>
+            const Student={
+                Name:"Swati",
+                city:"Talcher",
+                display:function(){
+                    return this.Name+" "+this.city;
+                }
+            }
+            document.getElementById("para").innerHTML = Student.display();
+        </script>
+    </body>    
+</html>
