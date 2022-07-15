@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Var key word</title>
+    </head>
+    <body>
+        <h1>Demo on var keyword</h1>
+        <script>
+            var num1 = 10; //Global variable
+            var num1 = 40; //Drawback od var keyword
+            num1 = 70;
+            function testVar(){ //Function definition
+                var num1 = 20; //local variable
+                document.write("Global variable Inside Function number is " + window.num1+'<br/><br/>');
+                document.write("local variable is " + num1+'<br/><br/>');
+            }
+            testVar();//calling Function
+            num1 = 50;
+            document.write("Outside function num is " + num1);
+        </script>
+    </body>
+</html>

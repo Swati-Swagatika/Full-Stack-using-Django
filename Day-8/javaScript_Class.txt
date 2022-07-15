@@ -1,0 +1,11 @@
+ - Place where we can keep javascript code
+    1. Indisde the body tag
+    2. Indisde the head tag
+    3. External JS
+
+- Two types of comment lines are available in JS
+    1. Single Line CommentLine - //
+    2. Multi line CommentLine - /* */
+
+- to access global variable --> window.(var name)
+-data types : 2 (primitive, non-primitive)

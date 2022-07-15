@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Const key word</title>
+    </head>
+    <body>
+        <h1>Demo on const keyword</h1>
+        <script>
+            const num1 = 10; //Global variable
+            function testVar(){ //Function definition
+                let num1 = 20; //local variable
+                document.write("local variable is " + num1+'<br/><br/>');
+            }
+            testVar();//calling Function
+            
+            document.write("Outside function num is " + num1);
+        </script>
+    </body>
+</html>
