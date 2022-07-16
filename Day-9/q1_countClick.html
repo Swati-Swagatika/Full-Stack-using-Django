@@ -1,0 +1,23 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <center>
+        <button id="btnid">Click Me</button>
+        <p id="count"></p>
+    </center>
+
+    <script>
+        let event = document.getElementById("btnid");
+        var count = 0;
+        event.onclick = function () {
+            count += 1;
+            document.getElementById("count").innerHTML = count;
+        }
+    </script>
+</body>
+
+</html>
