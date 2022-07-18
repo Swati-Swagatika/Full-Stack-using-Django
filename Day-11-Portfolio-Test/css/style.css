@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@500&family=Poppins:wght@300;500&display=swap');
+
+body{
+    background-color: rgb(214, 208, 208);
+    font-family: 'Ibarra Real Nova', serif;
+font-family: 'Poppins', sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.obj{
+    text-align: justify;
+}
+
+.col1 {
+    background-color: rgb(11, 71, 11);
+    color: aliceblue;
+}
+.box{
+    height: 150px;
+}
