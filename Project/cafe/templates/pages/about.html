@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load static%}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static 'css/about-style.css'%}">
+{% endblock css %}
+
+
+{% block content %}
+    <div>
+        <img src="{% static 'images/about-1.jpg'%}" alt="" class="about-img opacity-75">
+    </div>
+    <div class="row m-4 container about">
+        <div class="col text-center">
+            <p class="lead">SitCafe.</p>
+        </div>
+        <div class="col ">
+            <p>We serve the most authentic, traditional Indian and chinese food, providing high standards in service and quality.</p>
+        </div>
+        
+    </div>
+    
+{% endblock content%}

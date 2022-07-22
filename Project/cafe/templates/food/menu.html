@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Menu</h1>
+<ul>
+    {% for c in cuisine %}
+        <li>{{c}}</li>
+    {% endfor %}
+    
+</ul>
+{% endblock content %}
+

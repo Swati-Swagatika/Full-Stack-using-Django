@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+{% load static%}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static 'css/contact-style.css' %}">
+{% endblock css %}
+
+{% block content %}
+    <div class="container px-0">
+    <div class="row mt-3">
+        <div class="col-md-6 p-4 ">
+            <div class="d-flex justify-content-center">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3740.7805545361634!2d85.80414731442505!3d20.35068231595655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1908e064769e73%3A0x9288172f3a98c7a4!2sSilicon%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1658469246052!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="col-md-6 py-4 px-5">
+            <div class="card d-flex justify-content-center">
+                <h5 class="card-header">ADDRESS</h5>
+                <div class="card-body">
+                  <h5 class="card-title">Silicon Institute Of Technology, Bhubaneswar</h5>
+                  <p class="card-text">Silicon hills, Patia, 759024</p>
+                </div>
+              </div>
+        </div>
+    </div>
+    <div class="row my-3">
+        <div class="col-md-6 p-4  ">
+            <div class="border border-1 rounded-3 p-3">
+                <form action="" onsubmit="return validate();">
+                    <div class="lead fs-5">
+                        <div class="my-1">
+                            <label for="name">Name<span class="text-danger">*</span> </label>
+                            <input type="text" name="name" id="name" class=" form-control form-control-sm">
+                            <label for="name error" id="name_error" class="text-danger"></label>
+                        </div>
+                        <div class="my-1">
+                            <label for="name">Email<span class="text-danger">*</span> </label>
+                            <input type="text" name="email" id="email" class="form-control form-control-sm">
+                            <label for="email error" id="email_error" class="text-danger"></label>
+                        </div>
+                        <div class="my-1">
+                            <label for="name">Mobile<span class="text-danger">*</span> </label>
+                            <input type="text" name="mobile" id="mobile" class=" form-control form-control-sm">
+                            <label for="mobile error" id="mobile_error" class="text-danger"></label>
+                        </div>
+                    </div>
+                    <div class="py-3">
+                        <div class="lead">Suggestion Box</div>
+                        <input type="text" name="suggestion" id="suggestion" class="form-control form-control-sm box">
+                        <label for="submit_error" id="submit_error" class="text-danger"></label>
+                        <div class="butn pt-2 text-end">
+                            <input type="submit" value="Submit" id="submit" class="btn btn-primary">
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-6 p-4">
+            <div >
+                <h1>CONNECT US</h1>
+                <div class="fs-4">
+                    <i class="bi bi-envelope"></i> sitcafe@yahoo.com
+                    <br>
+                    <i class="bi bi-facebook"></i> SitCafe
+                    <br>
+                    <i class="bi bi-instagram"></i> Sit_Cafe
+                    <br>
+
+
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    </div>
+    
+{% endblock content%}
+
+{% block extrajs %}
+<script src="{% static 'js/form-validate.js'%}"></script>
+{% endblock extrajs %}
+
