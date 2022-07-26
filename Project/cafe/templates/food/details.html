@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+    <div class="row my-3">
+        <div class="col-md-6">
+            <img src="{{food.photo.url}}" alt="{{food.name}}" class="img-fluid">
+        </div>
+        <div class="col-md-6">
+            <h3 class="h3">{{food.name}}</h3>
+            <h5 class="h5">Rs/-{{food.price}}</h5>
+            <p class="text-lead">{{food.description}}</p>
+            <p class="text-lead">{{food.secondary_description}}</p>
+            <div class="my-2">
+                {% if food.is_available %}
+                    <a href="" class="btn btn-primary btn-sm w-100">Add to Cart</a>
+                {% else %}
+                    <p class="text-danger">Currently Unavailable</p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}
+
