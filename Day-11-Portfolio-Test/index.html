@@ -5,258 +5,258 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./bs/bootstrap.min.css">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <div class="container ">
+    <div class="container">
+        <div class="content">
+            <!-- Nav-Bar -->
         <div class="row">
-            <div class="col-md-4 col1 m-0 py-5">
-                <div class="row d-flex align-items-center m-1 px-5">
-                    <img src="./img/Swati-image.jpg" alt="my photo" class="rounded-circle user-img img-fluid  px-3">
-                </div>
-                <div class="row">
-                    <h1 class="display-5 px-3 py-4">Swati Swagatika Pradhan</h1>
-                    <p class="lead px-3">B.Tech CSE</p>
-                </div>
-                <div class="row">
-                    <div>
-                        <i class="bi bi-telephone-fill fs-4"></i> +91 7978099638
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#top">MyPortfolio</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#aboutme">About Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#skills">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#projects">Projects</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <div class="row">
-                    <div>
-                        <i class="bi bi-envelope-fill fs-4"></i> &nbsp; swatiswagatika50@gmail.com
-                    </div>
+            </nav>
+        </div>
+        <!-- Start -->
+        <div class="row bg-white rounded-bottom" id="top">
+            <div class="col-md-6">
+                <div class="row m-3 py-5 mx-5 position-relative top-50 start-50 translate-middle">
+                    <h1 class="h1">Hello, I'm</h1>
+                    <h1 class="h1 text-danger">Swati Swagatika Pradhan</h1>
+                    <h4 class="h4">a web developer</h4>
                 </div>
             </div>
-            <div class="col-md-8 bg-light p-3">
-                <!-- Objective -->
-                <div class="row">
-                    <h3 class="h3 border-bottom mb-2 mt-3">Objective</h3>
-                    <p class="obj">Seeking a challenging position in a reputed organization where I can learn new skills, expand my knowledge, and leverage my learnings.
-                        An enthusiastic and dedicated learner who always want to explore, learn and grow. I have a can-do frame of mind towards every situation and am determined towards my goal.</p>
+            <div class="col-md-6">
+                <div class="row d-flex align-items-center m-3 px-5">
+                    <!-- <img src="./img/Swati-image.jpg" alt="my photo" class=" user-img img-fluid  px-3"> -->
                 </div>
-                <!-- Skill -->
-                <div class="row">
-                    <h3 class="h3 border-bottom mb-2 mt-3">Skill</h3>
-                    <div class="row">
-                        <div class="col-md-3">
-                            Python
-                            <div class="progress">
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 85%;"
-                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">85%</div>
-                            </div>
-                            Java
-                            <div class="progress">
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 65%;"
-                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">65%</div>
-                            </div>
-                            C
-                            <div class="progress">
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 75%;"
-                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">75%</div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            HTML5
-                            <div class="progress">
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 100%;"
-                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">100%</div>
-                            </div>
-                            CSS3
-                            <div class="progress">
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 90%;"
-                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">90%</div>
-                            </div>
-                            JavaScript
-                            <div class="progress">
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 65%;"
-                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">65%</div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            Bootstrap
-                            <div class="progress">
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 85%;"
-                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">85%</div>
-                            </div>
-                            Django
-                            <div class="progress">
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 65%;"
-                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">65%</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Qualifications -->
-                <div class="row">
-                    <h3 class="h3 border-bottom mb-2 mt-3">Qualification</h3>
-                    <div class="row d-flex ml-3">
-                        <div class="col-md-4">
-                            <div class="card d-flex flex-column my-2">
-                                <div class="card-body">
-                                    <h5 class="h5">B.Tech(CSE)</h5>
-                                    <i class="bi bi-building"></i> Silicon Institute of technology, BBSR
-                                    <br>
-                                    <i class="bi bi-calendar-week"></i> 2019-23
-                                    <br>
-                                    <i class="bi bi-vector-pen"></i> 9.03 (CGPA)
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card d-flex flex-column my-2">
-                                <div class="card-body">
-                                    <h5 class="h5">12th CBSE</h5>
-                                    <i class="bi bi-building"></i> DAV Public School, MCL, JA
-                                    <br>
-                                    <i class="bi bi-calendar-week"></i> 2018
-                                    <br>
-                                    <i class="bi bi-vector-pen"></i> 80%
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card d-flex flex-column my-2">
-                                <div class="card-body">
-                                    <h5 class="h5">10th CBSE</h5>
-                                    <i class="bi bi-building"></i> DAV Public School, MCL, JA
-                                    <br>
-                                    <i class="bi bi-calendar-week"></i> 2016
-                                    <br>
-                                    <i class="bi bi-vector-pen"></i> 9.8 (CGPA)
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Projects -->
-                <div class="row">
-                    <h3 class="h3 border-bottom mb-2 mt-3">Projects</h3>
-                    <ul class="px-5">
-                        <li>
-                            <div class="my-1">
-                                <strong>Title: </strong><u>My Portfolio</u>
-                                <br>
-                                <strong>Description: </strong> Designed my portfolio which contains all my details.
-                                <br>
-                                <strong>Tools: </strong>HTML5, CSS3, Bootstrap 5
-                            </div>
-                        </li>
-                        <li>
-                            <div class="my-1">
-                                <strong>Title: </strong><u>Shoping Cart Landing Page</u>
-                                <br>
-                                <strong>Description: </strong> designed a dummy shopping site
-                                <br>
-                                <strong>Tools: </strong>HTML5, CSS3
-                            </div>
-                        </li>
-                        <li>
-                            <div class="my-1">
-                                <strong>Title: </strong><u>Contact Manager</u>
-                                <br>
-                                <strong>Description: </strong> User-Specific Web Application for storing and managing contacts.
-                                
-                                <br>
-                                <strong>Tools: </strong>HTML5, CSS3, Bootstrap 5, JavaScript, MongoDB, ExpressJS, Angular, NodeJS
-                            </div>
-                        </li>
-
-                    </ul>
-                </div>
-                <!-- Certifications -->
-                <div class="row">
-                    <h3 class="h3 border-bottom mb-2 mt-3">Certifications</h3>
-                    <ul class="px-5">
-                        <li>
-                            Internship on MEAN Stack Programming. June 2021
-                        </li>
-                        <li>
-                            HackerRank Certification on Python Basics
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- Achievements -->
-                <!-- <div class="row">
-                    <h3 class="h3 border-bottom mb-2 mt-3">Achievements</h3>
-                    <ul class="px-5">
-                        <li>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, est?
-                        </li>
-                        <li>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing.
-                        </li>
-                    </ul>
-                </div> -->
             </div>
         </div>
-        <div class="row bg-dark text-light">
-            <div class="col-md-7">
-                <div class="text-light px-4 py-1">
-                    <div class="lead fs-2"><strong>Get in Touch</strong></div>
-                    <form action="" onsubmit="return validate()">
-                        <div class=" lead fs-5">
-                            <div class="my-1">
-                                <label for="name">Name<span class="text-danger">*</span> </label>
-                                <input type="text" name="name" id="name" class="form-control">
-                                <label for="name error" id="name_error" class="text-danger"></label>
-                            </div>
-                            <div class="my-1">
-                                <label for="name">Email<span class="text-danger">*</span> </label>
-                                <input type="text" name="email" id="email" class="form-control">
-                                <label for="email error" id="email_error" class="text-danger"></label>
-                            </div>
-                            <div class="my-1">
-                                <label for="name">Mobile<span class="text-danger">*</span> </label>
-                                <input type="text" name="mobile" id="mobile" class="form-control">
-                                <label for="mobile error" id="mobile_error" class="text-danger"></label>
-                            </div>
-                        </div>
-                        <div class="py-3">
-                            <div class="lead">Suggestion Box</div>
-                            <input type="text" name="suggestion" id="suggestion" class="form-control box">
-                            <label for="submit_error" id="submit_error" class="text-danger"></label>
-                            <div class="butn pt-2 text-end">
-                                <input type="submit" value="Submit" id="submit" class="btn btn-primary">
-                                
-                            </div>
-    
-                        </div>
-                    </form>
-                    
+        <!-- About Me -->
+        <div class="row bg-white mt-3 p-2 rounded-3 " id="aboutme">
+            <div class="row pt-4">
+                <h1 class="text-center">About Me</h1>
+            </div>
+            <div class="row p-5">
+                <div class="col-md-6">
+                    <div class="row d-flex align-items-center m-3 px-5">
+                        <img src="./img/Swati-image.jpg" alt="my photo" class=" user-img img-fluid  px-3">
+                    </div>
+                </div>
+                <div class="col-md-6 fs-6">
+                    <div class="lead d-flex justify-content-between">I'm Swati Swagatika Pradhan, a developer and
+                        designer. Seeking a challenging
+                        position in a reputed organization where I can learn new skills, expand my knowledge, and
+                        leverage my learnings.
+                        I am an enthusiastic and dedicated learner who always want to explore, learn and grow. I have a
+                        can-do frame of mind towards every situation and am determined towards my goal.</div>
                 </div>
             </div>
-            <div class="col-md-5">
-                <div class="px-4 py-1 ">
-                    <div class="lead fs-2">
-                        <strong>Links</strong>
+        </div>
+        <!-- Skills -->
+        <div class="row bg-white my-3 p-2 rounded-3" id="skills">
+            <div class="row pt-2">
+                <h1 class=" text-center">Skills</h1>
+                <div class="col-md-6 px-5">
+                    <div class="px-2 my-2">
+                        Python
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 90%;"
+                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">90%</div>
+                        </div>
                     </div>
-                    <div class="row">
-                        <i class="bi bi-linkedin"></i><a href="https://www.linkedin.com/in/swati-swagatika-pradhan-4aa985192/"
-                            target="_blank">linkedin.com/swatiswagatika50</a>
+                    <div class="p-2">
+                        HTML5
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;"
+                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">90%</div>
+                        </div>
                     </div>
-                    <div class="row">
-                        <i class="bi bi-github"></i> <a href="https://github.com/Swati-Swagatika"
-                            target="_blank">github.com/swatiswagatika</a>
+                    <div class="px-2 my-2">
+                        CSS3
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 90%;"
+                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">90%</div>
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        JavaScript
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 70%;"
+                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        Django
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 80%;"
+                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 px-5 mb-4">
+                    <div class="p-2">
+                        SQlite3
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 70%;"
+                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        Git
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 75%;"
+                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">75%</div>
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        MySQL
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 70%;"
+                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        MongoDB
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 65%;"
+                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">65%</div>
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        C
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 85%;"
+                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">85%</div>
+                        </div>
                     </div>
                 </div>
 
             </div>
         </div>
-        <div class="row bg-dark text-center text-light pb-3">
-            <div class="lead">&copy; Swati Swagatika Pradhan 2022</div>
+        <!-- Projects -->
+        <div class="row bg-white mt-3 p-2 rounded-top d-flex justify-content-evenly" id="projects">
+            <div class="row pt-4 ">
+                <h1 class=" text-center">Projects</h1>
+                <div class="col-md-4 p-2">
+                    <div class="card shadow-sm p-3 bg-body ">
+                        <div class="card-body">
+                            <h3>My Portfolio</h3>
+                            <div class="lead">Designed my personal portfolio website</div>
+                            <div class="fs-6">Used: HTML5, CSS3, Bootstrap</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-2">
+                    <div class="card shadow-sm bg-body ">
+                        <div class="card-body">
+                            <h3>Online Shopping Site </h3>
+                            <img src="./img/shopping-site.png" class="card-img" alt="">
+                            <div class="lead">Designed a dummy e-commerce shopping site.</div>
+                            <div class="fs-6">Used: HTML5, CSS3</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-2">
+                    <div class="card shadow-sm bg-body ">
+                        <div class="card-body">
+                            <h3>SIT cafe</h3>
+                            <img src="./img/sit-cafe.png" class="card-img" alt="">
+                            <div class="lead">Developed a full-stack cafe project using Django for our college.</div>
+                            <div class="fs-6">Used: HTML5, CSS3, JS, Bootstrap, Django</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- get in touch -->
+        <div class="row bg-light p-5">
+            <div class="row get-card">
+                <div class="col-md-7 bg-dark shadow">
+                    <div class="text-light p-5">
+                        <div class="lead fs-3"><strong>Get in Touch</strong></div>
+                        <form action="" onsubmit="return validate()">
+                            <div class=" lead fs-6">
+                                <div class="my-1">
+                                    <label for="name">Name<span class="text-danger">*</span> </label>
+                                    <input type="text" name="name" id="name" class="form-control form-control-sm">
+                                    <label for="name error" id="name_error" class="text-danger"></label>
+                                </div>
+                                <div class="my-1">
+                                    <label for="name">Email<span class="text-danger">*</span> </label>
+                                    <input type="text" name="email" id="email" class="form-control form-control-sm">
+                                    <label for="email error" id="email_error" class="text-danger"></label>
+                                </div>
+                                <div class="my-1">
+                                    <label for="name">Mobile<span class="text-danger">*</span> </label>
+                                    <input type="text" name="mobile" id="mobile" class="form-control form-control-sm">
+                                    <label for="mobile error" id="mobile_error" class="text-danger"></label>
+                                </div>
+                            </div>
+                            <div class="py-3">
+                                <div class="lead fs-6">Suggestion Box</div>
+                                <input type="text" name="suggestion" id="suggestion"
+                                    class="form-control form-control-sm box">
+                                <label for="submit_error" id="submit_error" class="text-danger"></label>
+                                <div class="butn pt-2 text-end">
+                                    <input type="submit" value="Submit" id="submit" class="btn btn-primary">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-5 text-dark shadow">
+                    <div class="px-5 my-5">
+                        <div class="lead fs-2">
+                            <strong>Links</strong>
+                        </div>
+                        <div class="row">
+                            <i class="bi bi-linkedin"></i><a
+                                href="https://www.linkedin.com/in/swati-swagatika-pradhan-4aa985192/"
+                                target="_blank">linkedin.com/swatiswagatika50</a>
+                        </div>
+                        <div class="row">
+                            <i class="bi bi-github"></i> <a href="https://github.com/Swati-Swagatika"
+                                target="_blank">github.com/swatiswagatika</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
 
         </div>
-
-    </div>
-    <script src="./js/jsFile.js"></script>
-    <script src="./bs/bootstrap.bundle.js"></script>
+        </div>
+        
+        <script src="./js/jsFile.js"></script>
+        <script src="./bs/bootstrap.bundle.js"></script>
 </body>
 
 </html>

@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .models import Cuisine,Food
+from .models import Cuisine,Food, Order
 
 
 class CuisineAdmin(admin.ModelAdmin):
@@ -13,6 +13,12 @@ class FoodAdmin(admin.ModelAdmin):
     search_fields = ('name',)
     list_filter = ('is_available',)
 
+class OrderAdmin(admin.ModelAdmin):
+    list_display = ('id','user', 'order_details', 'is_ready', 'is_delivered')
+    list_editable = ('is_ready', 'is_delivered')
+    ordering = ('-id',)
+
 # admin.site.register(Cuisine)
 admin.site.register(Cuisine, CuisineAdmin)
 admin.site.register(Food, FoodAdmin)
+admin.site.register(Order, OrderAdmin)

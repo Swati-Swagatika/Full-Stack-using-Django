@@ -1,6 +1,8 @@
 {% extends 'base.html' %}
 {% load static %}
 
+
+
 {% block content %}
 <div class="contaner">
     <div class="row my-3">
@@ -10,7 +12,14 @@
                     <h3 class="h3">Sign Up</h3>
                 </div>
                 <div class="card-body">
-                    <form action="" method="POST" onsubmit="return validate()">
+                    
+                    {% if messages %}
+                        {% for message in messages %}
+                            <p class={{message.tags}}>{{message}}</p>
+                        {% endfor %}
+                    {% endif%}
+
+                    <form action="{% url 'signup' %}" method="POST" onsubmit="return validate()">
                         {% csrf_token %}
                         <div class="mb-1">
                             <label for="first_name">First Name</label>
